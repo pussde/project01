@@ -63,7 +63,7 @@
                     alert("用戶未登入");
                     liff.login();
                 } else {
-                    // alert("用戶已登入");
+                    alert("用戶已登入");
                     liff.getProfile()
                         .then(profile => {
                             name = profile.displayName;
@@ -85,7 +85,8 @@
 
         function pushMsg(pname, pdatatime, proom) {
             if (pname == '' || pdatatime == '' || proom == '') {  //資料檢查
-                alert('每個項目都必須輸入！');
+                alert(proom);
+                //alert('每個項目都必須輸入！');
                 return;
             }
         }
