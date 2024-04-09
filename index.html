@@ -83,9 +83,10 @@
         }
 
 
-        function pushMsg(pname, pdatatime, proom) {
-            if (pname == '' || pdatatime == '' || proom == '') {  //資料檢查
-                alert(proom);
+        function pushMsg(pname, pdatetime, proom) {
+            if (pname == '' || pdatetime == '' || proom == '') {  //資料檢查
+                alert(pdatetime);
+                alert(pname);
                 //alert('每個項目都必須輸入！');
                 return;
             }
