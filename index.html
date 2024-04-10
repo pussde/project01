@@ -84,11 +84,10 @@
 
         function sendLineMsg(msg_text) {
             alert(msg_text);
-            liff
-               .sendMessages([
+            liff.sendMessages([
                  {
                    type: "text",
-                   text: "xxxxxxxxxxxxxxxxx",
+                   text: msg_text,
                  },
                ])
                .then(() => {
