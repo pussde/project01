@@ -64,19 +64,6 @@
                     liff.login();
                 } else {
                     alert("用戶已登入");
-                    liff
-                      .sendMessages([
-                        {
-                          type: "text",
-                          text: "Helloxx, World!",
-                        },
-                      ])
-                      .then(() => {
-                        console.log("message sent");
-                      })
-                      .catch((err) => {
-                        console.log("error", err);
-                      });
                     liff.getProfile()
                         .then(profile => {
                             name = profile.displayName;
@@ -101,11 +88,28 @@
                 alert(pdatetime);
                 alert(pname);
                 //alert('每個項目都必須輸入！');
+                sendLineMsg(proom);
                 liff.closeWindow();
                 return;
             }
         }
-             
+        
+        function sendLineMsg(msg_text) {
+            liff
+               .sendMessages([
+                 {
+                   type: "text",
+                   text: msg_text,
+                 },
+               ])
+               .then(() => {
+                 console.log("message sent");
+               })
+               .catch((err) => {
+                 console.log("error", err);
+               });
+
+        }
 
         $(document).ready(function () {
             initializeLiff('2004227013-nwvNwYY2');  //接收傳遞的 liffid 參數
