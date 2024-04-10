@@ -41,7 +41,7 @@
                 <option>龍蝦沙拉</option>
             </select>
             <label>份數</label>
-            <input type="text" id="name" class="form-control" />
+            <input type="text" id="name" value="" class="form-control" />
             <br />
             <label>日期</label>
             <input type="date" id="datetime" value="" class="form-control" />
@@ -105,8 +105,9 @@
 
         function pushMsg(pname, pdatetime, proom) {
             if (pname == '' || pdatetime == '' || proom == '') {  //資料檢查
-                alert(pdatetime);
+                //alert(pdatetime);
                 alert(pname);
+                alert(proom);
                 //alert('每個項目都必須輸入！');
                 sendLineMsg(proom);
                 liff.closeWindow();
