@@ -82,6 +82,25 @@
             });
         }
 
+        function sendLineMsg(msg_text) {
+            liff
+               .sendMessages([
+                 {
+                   type: "text",
+                   text: msg_text,
+                 },
+               ])
+               .then(() => {
+                 console.log("message sent");
+                 alert("message sent");
+               })
+               .catch((err) => {
+                 console.log("error", err);
+                 alert(err);
+               });
+
+        }
+
 
         function pushMsg(pname, pdatetime, proom) {
             if (pname == '' || pdatetime == '' || proom == '') {  //資料檢查
@@ -94,23 +113,6 @@
             }
         }
         
-        function sendLineMsg(msg_text) {
-            liff
-               .sendMessages([
-                 {
-                   type: "text",
-                   text: msg_text,
-                 },
-               ])
-               .then(() => {
-                 console.log("message sent");
-               })
-               .catch((err) => {
-                 console.log("error", err);
-               });
-
-        }
-
         $(document).ready(function () {
             initializeLiff('2004227013-nwvNwYY2');  //接收傳遞的 liffid 參數
             $('#sure').click(function (e) {  //按下確定鈕
