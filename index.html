@@ -58,7 +58,8 @@
         var picUrl;
         function initializeLiff(myLiffId) {
             liff.init({
-                liffId: myLiffId
+                liffId: myLiffId,
+                withLoginOnExternalBrowser: true, // Enable automatic login process
             }).then(() => {
                 if (!liff.isLoggedIn()) {
                     alert("用戶未登入");
