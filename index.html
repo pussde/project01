@@ -103,6 +103,23 @@
 
         }
 
+        function sendShareMsg(msg_text) {
+            alert(msg_text);
+            liff.shareTargetPicker([
+                 {
+                   text: msg_text,
+                 },
+               ])
+               .then(() => {
+                 console.log("share message sent");
+                 alert("sharre message sent");
+               })
+               .catch((err) => {
+                 console.log("error", err);
+                 alert(err);
+               });
+
+        }
 
         function pushMsg(pname, pdatetime, proom) {
             alert(pname);
@@ -115,7 +132,8 @@
                 //liff.closeWindow();
                 return;
             }
-            sendLineMsg(proom);
+            //sendLineMsg(proom);
+            sendShareMsg(proom);
             //liff.closeWindow();
         }
         
