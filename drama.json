@@ -98,7 +98,7 @@
         {
             "name": "😂🌀UPLive",
              "ua": "okhttp/5.2.0",
-            "url": "https://fm1077.serv00.net/anbo/"
+            "url": "https://fm1077.serv00.net/anbo/",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
