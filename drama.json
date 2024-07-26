@@ -60,6 +60,26 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "https://t4.doube.eu.org/site/xp_olehdtv.json"
+        },
+        {
+            "key": "bfa101f4d8a61b23240d05343b173551",
+            "name": "ETH TV",
+            "type": 4,
+            "api": "http://videos.web6868.com/cinema/babd627fea9f0eb256fd2d04689a9a85422d18cb7ebe3a0627dd1e5b22f49207/66323a32653a33633a32613a36393a6661/1c8c47becf333f1a2e51404bd5ed3fcb805ae7eef235a1b8d9ea5fda872b7c78/",
+            "searchable": 1,
+            "quickSearch": 0,
+            "playsearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "eb909bf8805eb71c719631f5840b1cca",
+            "name": "樂視影視",
+            "type": 4,
+            "api": "http://videos.web6868.com/gplitv/babd627fea9f0eb256fd2d04689a9a85422d18cb7ebe3a0627dd1e5b22f49207/66323a32653a33633a32613a36393a6661/1c8c47becf333f1a2e51404bd5ed3fcb805ae7eef235a1b8d9ea5fda872b7c78/",
+            "searchable": 1,
+            "quickSearch": 0,
+            "playsearch": 0,
+            "filterable": 0
         }
     ],
     "lives": [
@@ -77,8 +97,11 @@
         },
         {
             "name": "😂🌀UPLive",
+             "ua": "okhttp/5.2.0",
             "url": "https://fm1077.serv00.net/anbo/"
-    }
+            "epg": "https://epg.112114.xyz/pp.xml",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
     ],
     "ads": [
       "static-mozai.4gtv.tv",
