@@ -103,6 +103,12 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
+            "name": "🐼SunnyLive",
+            "url": "file://Download/晴天0723.txt",
+            "epg": "https://epg.112114.xyz/pp.xml",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
             "name": "TVB",
              "ua": "okhttp/5.2.0",
             "url": "https://www.dussl.icu/Tvb_dussl.m3u",
