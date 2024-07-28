@@ -109,6 +109,19 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
+            "name": "🐽公众号-宝盒视界",
+            "type": 0,
+            "url": "https://gitcode.net/ygbh66/test/-/raw/master/x.txt",
+            "playerType": 1,
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "🔞18+(Github）",
+            "url": "https://raw.githubusercontent.com/yescopys/box/main/ah/18cn.json"
+        },
+        {
             "name": "TVB",
              "ua": "okhttp/5.2.0",
             "url": "https://www.dussl.icu/Tvb_dussl.m3u",
