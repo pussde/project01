@@ -159,7 +159,16 @@
         {
             "name": "ott118",
             "url": "http://0tt118.getenjoyment.net/m3u.php"
+            "epg": "https://epg.112114.xyz/pp.xml",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "🚫temp",
+            "url": "https://files.catbox.moe/fk8cnn.txt"
+            "epg": "https://epg.112114.xyz/pp.xml",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
+
     ],
     "ads": [
       "static-mozai.4gtv.tv",
