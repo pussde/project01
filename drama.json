@@ -155,6 +155,10 @@
             "url": "https://www.dussl.icu/itv_dussl.m3u",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "ott118",
+            "url": "http://0tt118.getenjoyment.net/m3u.php"
         }
     ],
     "ads": [
