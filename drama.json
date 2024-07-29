@@ -167,8 +167,14 @@
             "url": "https://files.catbox.moe/fk8cnn.txt",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
-        }
-
+        },
+        {
+            "name": "🇫🇷巴黎奥运会",
+             "ua": "okhttp/5.2.0",
+            "url": "https://www.dussl.icu/Aoyun_dussl.m3u",
+            "epg": "https://epg.112114.xyz/pp.xml",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
     ],
     "ads": [
       "static-mozai.4gtv.tv",
