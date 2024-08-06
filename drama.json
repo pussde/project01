@@ -85,7 +85,7 @@
     "lives": [
         {
             "name": "🇹🇼4GTV",
-            "url": "https://www.dussl.icu/4gtv_dussl.m3u"
+            "url": "https://www.mytvsuper.com.mp/4gtv_dussl.m3u"
         },
         {
             "name": "🍌香蕉哥直播",
@@ -94,13 +94,6 @@
         {
             "name": "🌽MyTvSuper",
             "url": "http://xg.52sw.top:5000/mytvsuper.m3u"
-        },
-        {
-            "name": "😂🌀UPLive",
-             "ua": "okhttp/5.2.0",
-            "url": "https://fm1077.serv00.net/anbo/",
-            "epg": "https://epg.112114.xyz/pp.xml",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "🐼SunnyLive",
@@ -123,36 +116,36 @@
         },
         {
             "name": "TVB",
-             "ua": "okhttp/5.2.0",
-            "url": "https://www.dussl.icu/Tvb_dussl.m3u",
+            "ua": "okhttp/5.2.0",
+            "url": "https://www.mytvsuper.com.mp/Tvb_dussl.m3u",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "TW",
              "ua": "okhttp/5.2.0",
-            "url": "https://www.dussl.icu/Tw_dussl.m3u",
+            "url": "https://www.mytvsuper.com.mp/Tw_dussl.m3u",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "TheTV",
              "ua": "okhttp/5.2.0",
-            "url": "https://www.dussl.icu/Thetv_dussl.m3u",
+            "url": "https://www.mytvsuper.com.mp/Thetv_dussl.m3u",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "BeeSport",
              "ua": "okhttp/5.2.0",
-            "url": "https://www.dussl.icu/beesport_dussl.m3u",
+            "url": "https://www.mytvsuper.com.mp/beesport_dussl.m3u",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "iTV",
              "ua": "okhttp/5.2.0",
-            "url": "https://www.dussl.icu/itv_dussl.m3u",
+            "url": "https://www.mytvsuper.com.mp/itv_dussl.m3u",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
@@ -171,7 +164,7 @@
         {
             "name": "🇫🇷巴黎奥运会",
              "ua": "okhttp/5.2.0",
-            "url": "https://www.dussl.icu/Aoyun_dussl.m3u",
+            "url": "https://www.mytvsuper.com.mp/Aoyun_dussl.m3u",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
