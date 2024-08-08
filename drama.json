@@ -162,6 +162,12 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
+            "name": "🍉新視界TV",
+            "url": "http://u6v.cn/5MF6C7",
+            "epg": "https://epg.112114.xyz/pp.xml",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
             "name": "🇫🇷巴黎奥运会",
              "ua": "okhttp/5.2.0",
             "url": "https://www.mytvsuper.com.mp/Aoyun_dussl.m3u",
