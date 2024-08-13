@@ -176,7 +176,7 @@
         },
         {
             "name": "🀄斯馬特",
-            "url": "https://tang.hz.cz/zb/stv?token=032fb225",
+            "url": "https://tang.hz.cz/api/user?token=032fb225",
             "epg": "https://epg.112114.xyz/pp.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
