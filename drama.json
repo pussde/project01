@@ -175,6 +175,18 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
+            "name": "搬運-星視界訂閱",
+            "url": "https://t4.doube.eu.org/XingShiJie.txt",
+            "epg": "https://epg.112114.xyz/pp.xml",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "日本頻道訂閱",
+            "url": "https://anbox118.serv00.net/japan.m3u",
+            "epg": "https://epg.112114.xyz/pp.xml",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
             "name": "🀄斯馬特",
             "url": "https://tang.hz.cz/api/user?token=032fb225",
             "epg": "https://epg.112114.xyz/pp.xml",
